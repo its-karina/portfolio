@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1171749856/vector/empty-gray-studio-room-used-as-background-for-display-your-products.jpg?s=612x612&w=0&k=20&c=4ejFpacQDehB1T9Clj9aJHkR_UrUoSG0DtL9uUBU5Rk=);
+}
+
+.sidebar {
+    background-color: rgba(155, 149, 149, 0.874);
+    width: 15vw;
+    font-family: "PT Sans Narrow", sans-serif;
+    height: 100vh;
+    background-image: url(https://t4.ftcdn.net/jpg/02/67/47/05/360_F_267470553_wDnd6ivnKdXISwLqFlqXkTXvi7bHtDmg.jpg);
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.main {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+
+
+}
+
+.infocontainer {
+
+    height: 30vw;
+    width: 70vw;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.hello {
+    font-size: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.name {
+    font-size: 35px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.btn {
+    margin-top: 35px;
+
+}
+
+.btn {
+    font-family: "Roboto Condensed", sans-serif;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(45, 113, 186);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 3 6px;
+    padding: 20px 30px;
+    cursor: pointer;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+.btn-sm {
+    font-size: 17px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    margin: 10px;
+}
+
+
+.btn:hover {
+    background-color: white;
+    color: rgb(45, 113, 186);
+}
+
+.devpic img {
+    height: 20vw;
+    width: 30vw;
+    border-radius: 50px;
+    margin: 10px;
+
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+}
+
+.contactform h1 {
+    text-align: center;
+    padding: 12px 0;
+
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 16vw;
+    border-radius: 16vw;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+
+#emailHelp {
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+
+}
+
+.form-check {
+    flex-direction: row;
+
+}
+
+.form-check input {
+    width: 2px;
+    margin: 3px 0;
+}
+
+.blogitem {
+    margin: 20px;
+    font-family: 'firabsans', sans-serif;
+}
+
+.blogcontainer h1 {
+    font-family: 'firabsans', sans-serif;
+}
+
+.blogitem p {
+    font-family: 'firabsans', sans-serif;
+}
+
+.intro h2 {
+    font-family: 'firabsans', sans-serif;
+    margin: 12px;
+    font-weight: bold;
+
+}
+
+.intro h1 {
+
+    font-family: 'firabsans', sans-serif;
+    margin: 10px;
+
+}
+
+.intro p {
+    font-family: 'firabsans', sans-serif;
+    margin: 12px;
+}
+
+.skillcontainer {
+    padding: 6px 10px;
+
+
+}
+
+.skillitem {
+    display: block;
+    align-items: center;
+}
+
+.skill {
+    width: 265px;
+    height: 10px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 256px;
+    background-color: aqua;
+}
+
+.fifty {
+    width: 200px;
+    background-color: yellow;
+}
+
+.t5 {
+    width: 125px;
+    background-color: blueviolet;
+    margin: 5px;
+}
